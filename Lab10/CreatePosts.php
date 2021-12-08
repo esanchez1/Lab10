@@ -26,7 +26,6 @@ $mysqli = new mysqli("mysql.eecs.ku.edu", "e921s031", "nie7otai", "e921s031");
     }
 
 
-    $result->free();
-    /* close connection */ 
+    $result->free(); 
     $mysqli->close(); 
 ?>
